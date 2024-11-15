@@ -22,3 +22,28 @@ Nodes: 60
 Object: 570
 All steps completed. Total time taken: 12.33 seconds
 Throughput: 46.23 objects per second
+
+Nodes: 60
+Object: 570
+All steps completed. Total time taken: 11.33 seconds
+Throughput: 50.31 objects per second
+
+Nodes: 50
+Object: 570
+All steps completed. Total time taken: 12.41 seconds
+Throughput: 45.93 objects per second
+
+Nodes: 40
+ObjeCT: 570
+All steps completed. Total time taken: 13.68 seconds
+Throughput: 41.67 objects per second
+
+Nodes: 30
+Object: 570
+All steps completed. Total time taken: 14.16 seconds
+Throughput: 40.25 objects per second
+
+Nodes: 20
+Object: 570
+All steps completed. Total time taken: 15.16 seconds
+Throughput: 37.60 objects per second
