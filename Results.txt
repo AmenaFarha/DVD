@@ -69,6 +69,19 @@ Nodes: 20
 Main: Full execution time (latency): 0.1379 seconds
 Main: Throughput: 4126.12 vectors/second
 
+Obejects: 114
+Main: Full execution time (latency): 0.3988 seconds
+Main: Throughput: 285.85 vectors/second
+
+Obejects: 128
+
+Obejects: 342
+
+Obejects: 456
+
+Obejects: 570
+
+
 
 
 
