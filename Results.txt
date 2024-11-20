@@ -73,14 +73,21 @@ Obejects: 114
 Main: Full execution time (latency): 0.3988 seconds
 Main: Throughput: 285.85 vectors/second
 
-Obejects: 128
+Obejects: 228
+Main: Full execution time (latency): 0.4082 seconds
+Main: Throughput: 558.57 vectors/second
 
 Obejects: 342
+Main: Full execution time (latency): 0.3980 seconds
+Main: Throughput: 859.29 vectors/second 
 
 Obejects: 456
+Main: Full execution time (latency): 0.4040 seconds
+Main: Throughput: 1128.80 vectors/second
 
 Obejects: 570
-
+Main: Full execution time (latency): 0.4222 seconds
+Main: Throughput: 1347.79 vectors/second
 
 
 
