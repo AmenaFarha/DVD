@@ -89,6 +89,47 @@ Obejects: 570
 Main: Full execution time (latency): 0.4222 seconds
 Main: Throughput: 1347.79 vectors/second
 
+==================================Waieavte=======================================
+Nodes: 60
+Main: Full execution time (latency): 0.4222 seconds
+Main: Throughput: 1347.79 vectors/second
+
+Nodes: 50
+Main: Full execution time (latency): 0.3402 seconds
+Main: Throughput: 1672.68 vectors/second
+
+Nodes: 40
+Main: Full execution time (latency): 0.2648 seconds
+Main: Throughput: 2148.81 vectors/second
+
+Nodes: 30
+Main: Full execution time (latency): 0.2107 seconds
+Main: Throughput: 2700.79 vectors/second
+
+Nodes: 20
+Main: Full execution time (latency): 0.1379 seconds
+Main: Throughput: 4126.12 vectors/second
+
+Obejects: 114
+Main: Full execution time (latency): 0.3988 seconds
+Main: Throughput: 285.85 vectors/second
+
+Obejects: 228
+Main: Full execution time (latency): 0.4082 seconds
+Main: Throughput: 558.57 vectors/second
+
+Obejects: 342
+Main: Full execution time (latency): 0.3980 seconds
+Main: Throughput: 859.29 vectors/second 
+
+Obejects: 456
+Main: Full execution time (latency): 0.4040 seconds
+Main: Throughput: 1128.80 vectors/second
+
+Obejects: 570
+Main: Full execution time (latency): 0.4222 seconds
+Main: Throughput: 1347.79 vectors/second
+
 
 
 
