@@ -36,12 +36,12 @@ Throughput: 347.43 objects per second
 Nodes: 40
 ObjeCT: 570
 All steps completed. Total time taken: 1.69 seconds
-Throughput: 336.34 objects per second
+Throughput: 337.28 objects per second
 
 Nodes: 30
 Object: 570
 All steps completed. Total time taken: 1.76 seconds
-Throughput: 340.86 objects per second
+Throughput: 323.86 objects per second
 
 Nodes: 20
 Object: 570
@@ -87,6 +87,26 @@ Main: Throughput: 1128.80 vectors/second
 
 Obejects: 570
 Main: Full execution time (latency): 0.4222 seconds
+Main: Throughput: 1347.79 vectors/second
+
+Objects: 114
+Main: Full execution time (latency): 398.8 milliseconds
+Main: Throughput: 285.85 vectors/second
+
+Objects: 228
+Main: Full execution time (latency): 408.2 milliseconds
+Main: Throughput: 558.57 vectors/second
+
+Objects: 342
+Main: Full execution time (latency): 398.0 milliseconds
+Main: Throughput: 859.29 vectors/second 
+
+Objects: 456
+Main: Full execution time (latency): 404.0 milliseconds
+Main: Throughput: 1128.80 vectors/second
+
+Objects: 570
+Main: Full execution time (latency): 422.2 milliseconds
 Main: Throughput: 1347.79 vectors/second
 
 ==================================Waieavte=======================================
