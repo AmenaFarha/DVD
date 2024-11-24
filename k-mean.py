@@ -14,7 +14,7 @@ size = comm.Get_size()
 
 start_time = time.time()
 
-file_path = "E:/Study/Ph.D/Research Dissertation/breast+cancer+wisconsin+diagnostic/wdbc.csv"
+file_path = "wdbc.csv"
 df = pd.read_csv(file_path)
 
 ids = df['ID'].values
@@ -49,7 +49,7 @@ if rank == 0:
 
     df['ID'] = ids
     df['Cluster'] = labels
-    output_dir = "clusters"
+    output_dir = "partition"
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
     for cluster in range(n_clusters):
@@ -61,10 +61,10 @@ if rank == 0:
     print("Clustering completed and data stored separately.")
 
 print("\nRunning Step 2 (MPI script)...")
-subprocess.run(["mpiexec", "-n", "2", "python", "E:/Study/Ph.D/Research Dissertation/Creating hash.py"], check=True)
+subprocess.run(["mpiexec", "-n", "2", "python", "Creating hash.py"], check=True)
 
 print("\nRunning Step 3 (MPI script)...")
-subprocess.run(["mpiexec", "-n", "2", "python", "E:/Study/Ph.D/Research Dissertation/Consensus.py"], check=True)
+subprocess.run(["mpiexec", "-n", "2", "python", "Consensus.py"], check=True)
 
 end_time = time.time()
 total_time = end_time - start_time
