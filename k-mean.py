@@ -22,8 +22,6 @@ df = df.drop(columns=['ID', 'Diagnosis'])
 features = df.values
 scaler = StandardScaler()
 features = scaler.fit_transform(features)
-
-# Clustering parameters
 n_clusters = 5
 batch_size = 50
 
