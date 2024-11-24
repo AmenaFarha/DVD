@@ -7,8 +7,8 @@ comm = MPI.COMM_WORLD
 rank = comm.Get_rank()
 size = comm.Get_size()
 
-input_folder = "E:/Study/Ph.D/Research Dissertation/breast+cancer+wisconsin+diagnostic/partition"
-output_folder = "E:/Study/Ph.D/Research Dissertation/breast+cancer+wisconsin+diagnostic/hash"
+input_folder = "partition"
+output_folder = "hash"
 
 if rank == 0:
     try:
