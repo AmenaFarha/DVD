@@ -15,8 +15,8 @@ spark = SparkSession.builder \
 spark.sparkContext.setLogLevel("ERROR")
 
 start_time = time.time()
-file_path = "E:/Study/Ph.D/Research Dissertation/breast+cancer+wisconsin+diagnostic/wdbc.csv"
-output_path = "E:/Study/Ph.D/Research Dissertation/breast+cancer+wisconsin+diagnostic/partition"
+file_path = "wdbc.csv"
+output_path = "partition"
 num_objects = 570
 
 df = spark.read.csv(file_path, header=True, inferSchema=True)
@@ -63,10 +63,10 @@ if isolated_features:
     print(f"Isolated features saved to {isolated_file}")
 
 print("\nRunning Step 2 (MPI script)...")
-subprocess.run(["mpiexec", "-n", "2", "python", "E:/Study/Ph.D/Research Dissertation/Creating hash.py"], check=True)
+subprocess.run(["mpiexec", "-n", "2", "python", "Creating hash.py"], check=True)
 
 print("\nRunning Step 3 (MPI script)...")
-subprocess.run(["mpiexec", "-n", "2", "python", "E:/Study/Ph.D/Research Dissertation/Consensus.py"], check=True)
+subprocess.run(["mpiexec", "-n", "2", "python", "Consensus.py"], check=True)
 end_time = time.time()
 total_time = end_time - start_time
 throughput = num_objects / total_time if total_time > 0 else 0
