@@ -48,7 +48,7 @@ Object: 570
 All steps completed. Total time taken: 1.79 seconds
 Throughput: 317.58 objects per second
 
-==================================Faiss=================================================
+==================================Faiss===============================================
 Nodes: 60
 Main: Full execution time (latency): 0.4222 seconds
 Main: Throughput: 1347.79 vectors/second
@@ -149,6 +149,57 @@ Main: Throughput: 1128.80 vectors/second
 Obejects: 570
 Main: Full execution time (latency): 0.4222 seconds
 Main: Throughput: 1347.79 vectors/second
+
+========================K-min==========================
+Nodes: 60
+Object: 114
+All steps completed. Total time taken: 5.46 seconds
+Throughput: 20.88 objects per second
+
+Nodes: 60
+Object: 228
+All steps completed. Total time taken: 5.48 seconds
+Throughput: 41.61 objects per second
+
+Nodes: 60
+Object: 342
+All steps completed. Total time taken: 5.57 seconds
+Throughput: 61.40 objects per second
+
+Nodes: 60
+Object: 456
+All steps completed. Total time taken: 5.60 seconds
+Throughput: 81.43 objects per second
+
+Nodes: 60
+Object: 570
+All steps completed. Total time taken: 5.62 seconds
+Throughput: 101.42 objects per second
+
+Nodes: 60
+Object: 570
+All steps completed. Total time taken: 5.62 seconds
+Throughput: 101.42 objects per second
+
+Nodes: 50
+Object: 570
+All steps completed. Total time taken: 5.64 seconds
+Throughput: 101.06 objects per second
+
+Nodes: 40
+ObjeCT: 570
+All steps completed. Total time taken: 5.69 seconds
+Throughput: 100.18 objects per second
+
+Nodes: 30
+Object: 570
+All steps completed. Total time taken: 5.76 seconds
+Throughput: 98.96 objects per second
+
+Nodes: 20
+Object: 570
+All steps completed. Total time taken: 5.79 seconds
+Throughput: 317.58 objects per second
 
 
 
