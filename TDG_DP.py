@@ -15,7 +15,7 @@ spark = SparkSession.builder \
 spark.sparkContext.setLogLevel("ERROR")
 
 start_time = time.time()
-file_path = "wdbc.csv"
+file_path = "transformed_data.csv"
 output_path = "partition"
 num_objects = 570
 
