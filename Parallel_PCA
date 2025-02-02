@@ -7,8 +7,6 @@ import threading
 # Load and prepare the data
 def load_data():
     file_path = r'C:\Users\afarha\Study\Project DVD\wdbc.csv'
-    data = pd.read_csv(file_path)
-    # Assume the first column is ID and the second is a label. Adjust as necessary.
     data = data.select_dtypes(include=[np.number])  # Select only numerical data for PCA
     scaler = StandardScaler()
     data_scaled = scaler.fit_transform(data)
@@ -41,10 +39,8 @@ for i in range(num_threads):
 for thread in threads:
     thread.join()
 
-# Final transform (optional, if you need a projection of the data)
 transformed_data = incremental_pca.transform(data_scaled)
 
-# Save the transformed data to a CSV file
 output_path = r'C:\Users\afarha\Study\Project DVD\transformed_data.csv'
 pd.DataFrame(transformed_data).to_csv(output_path, index=False)
 print(f"Transformed data saved to {output_path}")
