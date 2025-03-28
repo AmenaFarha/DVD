@@ -1,4 +1,4 @@
-
+===================DVD================
 Objects: 570
 Total time taken: 0.0388 seconds
 
@@ -14,24 +14,23 @@ Total time taken: 0.0279 seconds
 Objects: 114
 Total time taken: 0.0208 seconds
 
-
 Objects: 570
 Nodes: 50
-Total time taken: 0.1070 seconds
+Total time taken: 0.0388 seconds
 
 Nodes: 40
-Total time taken: 0.1115 seconds
+Total time taken: 0.1094 seconds
 
 Nodes: 30
-Total time taken: 0.1399 seconds
+Total time taken: 0.1267 seconds
 
 Nodes: 20
-Total time taken: 0.1696 seconds
-
+Total time taken: 0.1625 seconds
 
 Nodes: 10
+Total time taken: 0.2449 seconds
 
-
+===================K-DVD================
 Objects: 570
 Total time taken: 0.0583 seconds
 
@@ -46,3 +45,19 @@ Total time taken: 0.0486 seconds
 
 Objects: 114
 Total time taken: 0.0419 seconds
+
+Objects: 570
+Nodes: 50
+Total time taken: 0.0583 seconds
+
+Nodes: 40
+Total time taken: 0.05903 seconds
+
+Nodes: 30
+Total time taken: 0.06382 seconds
+
+Nodes: 20
+Total time taken: 0.06785 seconds
+
+Nodes: 10
+Total time taken: 0.1722 seconds
