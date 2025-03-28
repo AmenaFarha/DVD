@@ -1,33 +1,32 @@
-Nodes:100
 
 Objects: 570
-Total time taken: 0.0498 seconds
+Total time taken: 0.0388 seconds
 
 Objects: 456
-Total time taken: 0.0498 seconds
+Total time taken: 0.0373 seconds
 
 Objects: 342
-Total time taken: 0.0498 seconds
+Total time taken: 0.0305 seconds
 
 Objects: 228
-Total time taken: 0.0498 seconds
+Total time taken: 0.0279 seconds
 
 Objects: 114
-Total time taken: 0.0498 seconds
+Total time taken: 0.0208 seconds
 
 
 Objects: 570
-Nodes: 100
-Total time taken: 0.0498 seconds
-
-Nodes: 80
-Total time taken: 0.1023 seconds
-
-Nodes: 60
-Total time taken: 0.1093 seconds
+Nodes: 50
+Total time taken: 0.1070 seconds
 
 Nodes: 40
-Total time taken: 0.1574 seconds
+Total time taken: 0.1115 seconds
+
+Nodes: 30
+Total time taken: 0.1399 seconds
 
 Nodes: 20
-Total time taken: 0.3045 seconds
+Total time taken: 0.1696 seconds
+
+
+Nodes: 10
