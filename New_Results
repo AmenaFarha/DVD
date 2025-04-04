@@ -53,13 +53,19 @@ Objects: 1140
 Nodes: 30
 
 Nodes: 60
+Total time taken: 0.1515 seconds
 
 Nodes: 90
+Total time taken: 0.1288 seconds
 
 Nodes: 120
+Total time taken: 0.1032 seconds
 
 Nodes: 150
+Total time taken: 0.0802 seconds
 
+Nodes: 180
+Total time taken: 0.0793 seconds
 
 ===================K-DVD================
 Objects: 570
@@ -112,13 +118,17 @@ Total time taken: 0.0676 seconds
 
 Objects: 1140
 
-Nodes: 30
-
 Nodes: 60
+Total time taken: 0.1683 seconds
 
 Nodes: 90
+Total time taken: 0.1206 seconds
 
 Nodes: 120
+Total time taken: 0.0938 seconds
 
 Nodes: 150
+Total time taken: 0.0813 seconds
 
+Nodes: 180
+Total time taken: 0.0709 seconds
