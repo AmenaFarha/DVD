@@ -132,3 +132,48 @@ Total time taken: 0.0813 seconds
 
 Nodes: 180
 Total time taken: 0.0709 seconds
+
+===================Faiss (Large scale)==================
+Nodes: 100
+Objects: 228
+Main: Full execution time (latency): 0.6726 seconds
+Main: Throughput: 339.00 vectors/second
+
+Objects: 456
+Main: Full execution time (latency): 0.6844 seconds
+Main: Throughput: 666.31 vectors/second
+
+Objects: 684
+Main: Full execution time (latency): 0.7267 seconds
+Main: Throughput: 941.27 vectors/second
+
+Objects: 912
+Main: Full execution time (latency): 0.7378 seconds
+Main: Throughput: 1236.03 vectors/second
+
+Objects: 1140
+Main: Full execution time (latency): 0.7500 seconds
+Main: Throughput: 1520.00 vectors/second
+
+Objects: 1140
+
+Nodes: 60
+Main: Full execution time (latency): 0.4396 seconds
+Main: Throughput: 2593.26 vectors/second
+
+Nodes: 90
+Main: Full execution time (latency): 0.6625 seconds
+Main: Throughput: 1720.72 vectors/second
+
+Nodes: 120
+Main: Full execution time (latency): 0.9024 seconds
+Main: Throughput: 1263.33 vectors/second
+
+Nodes: 150
+Main: Full execution time (latency): 1.1217 seconds
+Main: Throughput: 1016.33 vectors/second
+
+Nodes: 180
+Main: Full execution time (latency): 1.3765 seconds
+Main: Throughput: 828.21 vectors/second
+
