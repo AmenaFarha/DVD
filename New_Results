@@ -220,3 +220,14 @@ Nodes: 180
 Main: Full execution time (latency): 1.3765 seconds
 Main: Throughput: 828.21 vectors/second
 
+Features-10
+Components:  7 | Explained Variance: 0.9951 | MSE: 0.004905
+Features-20
+Components: 13 | Explained Variance: 0.9910 | MSE: 0.008975
+Features-30
+Components: 15 | Explained Variance: 0.9906 | MSE: 0.009436
+Features-40
+Components: 17 | Explained Variance: 0.9917 | MSE: 0.008272
+Features-50
+Components: 16 | Explained Variance: 0.9901 | MSE: 0.009908
+
