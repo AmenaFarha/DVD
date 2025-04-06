@@ -133,6 +133,49 @@ Total time taken: 0.0813 seconds
 Nodes: 180
 Total time taken: 0.0709 seconds
 
+===================Faiss==================
+Nodes: 50
+Objects: 114
+Main: Full execution time (latency): 0.3267 seconds
+Main: Throughput: 348.96 vectors/second
+
+Objects: 228
+Main: Full execution time (latency): 0.3277 seconds
+Main: Throughput: 695.72 vectors/second
+
+Objects: 342
+Main: Full execution time (latency): 0.3262 seconds
+Main: Throughput: 1048.44 vectors/second
+
+Objects: 456
+Main: Full execution time (latency): 0.3304 seconds
+Main: Throughput: 1380.26 vectors/second
+Index saved to 'merged_index.index'
+
+Objects: 570
+Main: Full execution time (latency): 0.3354 seconds
+Main: Throughput: 1699.42 vectors/second
+
+Objects: 570
+Nodes: 10
+Main: Full execution time (latency): 0.0796 seconds
+Main: Throughput: 7156.53 vectors/second
+
+Nodes: 20
+Main: Full execution time (latency): 0.1375 seconds
+Main: Throughput: 4145.78 vectors/second
+
+Nodes: 30
+Main: Full execution time (latency): 0.2079 seconds
+Main: Throughput: 2742.08 vectors/second
+
+Nodes: 40
+Main: Full execution time (latency): 0.2662 seconds
+Main: Throughput: 2140.85 vectors/second
+
+Nodes: 50
+Main: Full execution time (latency): 0.3354 seconds
+Main: Throughput: 1699.42 vectors/second
 ===================Faiss (Large scale)==================
 Nodes: 100
 Objects: 228
