@@ -90,10 +90,29 @@ Throughput: 8506.02 objects/second
 
 ================ DVD (Pull/Push) =======================
 Objects: 100
+Avg Push Time: 0.006102 sec
+Avg Pull Time: 0.000219 sec
+Total Execution Time: 0.0239 seconds
+
 Objects: 200
+Avg Push Time: 0.009488 sec
+Avg Pull Time: 0.000277 sec
+Total Execution Time: 0.0271 seconds
+
 Objects: 300
+Avg Push Time: 0.012620 sec
+Avg Pull Time: 0.000135 sec
+Total Execution Time: 0.0311 seconds
+
 Objects: 400
+Avg Push Time: 0.015917 sec
+Avg Pull Time: 0.000039 sec
+Total Execution Time: 0.0368 seconds
+
 Objects: 500
+Avg Push Time: 0.018893 sec
+Avg Pull Time: 0.000180 sec
+Total Execution Time: 0.0457 seconds
 
 ===================K-DVD================
 Objects: 570
