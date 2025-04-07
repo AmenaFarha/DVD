@@ -67,6 +67,27 @@ Total time taken: 0.0802 seconds
 Nodes: 180
 Total time taken: 0.0793 seconds
 
+===================DVD (Extreme Large scale) ================
+Nodes: 150
+Objects: 2000
+Total time taken: 0.2144 seconds
+Throughput: 9330.10 objects/second
+
+Objects: 4000
+Total time taken: 0.4601 seconds
+Throughput: 8693.82 objects/second
+Objects: 6000
+Total time taken: 0.7067 seconds
+Throughput: 8490.14 objects/second
+
+Objects: 8000
+Total time taken: 0.9132 seconds
+Throughput: 8760.32 objects/second
+
+Objects: 10000
+Total time taken: 1.1756 seconds
+Throughput: 8506.02 objects/second
+
 ===================K-DVD================
 Objects: 570
 Total time taken: 0.0583 seconds
@@ -133,6 +154,22 @@ Total time taken: 0.0813 seconds
 Nodes: 180
 Total time taken: 0.0709 seconds
 
+===================K-DVD (Extreme Large scale) ================
+Nodes: 150
+Objects: 2000
+Total time taken: 0.2115 seconds
+
+Objects: 4000
+Total time taken: 0.3987 seconds
+
+Objects: 6000
+Total time taken: 0.5833 seconds
+
+Objects: 8000
+Total time taken: 0.7673 seconds
+
+Objects: 10000
+Total time taken: 0.9654 seconds
 ===================Faiss==================
 Nodes: 50
 Objects: 114
