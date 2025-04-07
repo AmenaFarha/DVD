@@ -88,6 +88,13 @@ Objects: 10000
 Total time taken: 1.1756 seconds
 Throughput: 8506.02 objects/second
 
+================ DVD (Pull/Push) =======================
+Objects: 100
+Objects: 200
+Objects: 300
+Objects: 400
+Objects: 500
+
 ===================K-DVD================
 Objects: 570
 Total time taken: 0.0583 seconds
@@ -170,6 +177,33 @@ Total time taken: 0.7673 seconds
 
 Objects: 10000
 Total time taken: 0.9654 seconds
+
+================ k-DVD (Pull/Push) =======================
+Objects: 100
+Avg Push Time: 0.004425 sec
+Avg Pull Time: 0.000087 sec
+Total Execution Time: 0.0310 seconds
+
+Objects: 200
+Avg Push Time: 0.008671 sec
+Avg Pull Time: 0.000113 sec
+Total Execution Time: 0.0356 seconds
+
+Objects: 300
+Avg Push Time: 0.012822 sec
+Avg Pull Time: 0.000321 sec
+Total Execution Time: 0.0400 seconds
+
+Objects: 400
+Avg Push Time: 0.017228 sec
+Avg Pull Time: 0.000079 sec
+Total Execution Time: 0.0444 seconds
+
+Objects: 500
+Avg Push Time: 0.021337 sec
+Avg Pull Time: 0.000235 sec
+Total Execution Time: 0.0497 seconds
+
 ===================Faiss==================
 Nodes: 50
 Objects: 114
