@@ -248,12 +248,12 @@ Main: Throughput: 1699.42 vectors/second
 
 Objects: 570
 Nodes: 10
-Main: Full execution time (latency): 0.0796 seconds
-Main: Throughput: 7156.53 vectors/second
-
-Nodes: 20
 Main: Full execution time (latency): 0.1375 seconds
 Main: Throughput: 4145.78 vectors/second
+
+Nodes: 20
+Main: Full execution time (latency): 0.1753 seconds
+Main: Throughput: 3251.57 vectors/second
 
 Nodes: 30
 Main: Full execution time (latency): 0.2079 seconds
