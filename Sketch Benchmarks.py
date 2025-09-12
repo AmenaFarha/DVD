@@ -4,9 +4,6 @@ import hashlib
 import math
 import pandas as pd
 
-# -----------------------------
-# Config
-# -----------------------------
 SEED = 123
 np.random.seed(SEED)
 
@@ -19,9 +16,6 @@ cs_topk = 10      # recover top-k coordinates
 hll_p = 14        # HLL precision -> m=2^p registers (~16K)
 sig_top = 3       # signature uses top-3 abs indices + signs for HLL
 
-# -----------------------------
-# Helpers: deterministic hashing
-# -----------------------------
 def hash_to_int(x: bytes, seed: int = 0) -> int:
     h = hashlib.blake2b(x, digest_size=8, person=str(seed).encode())
     return int.from_bytes(h.digest(), byteorder="big", signed=False)
@@ -32,9 +26,8 @@ def sign_hash(key: int, seed: int) -> int:
 def bucket_hash(key: int, seed: int, buckets: int) -> int:
     return hash_to_int(key.to_bytes(8, "big"), seed) % buckets
 
-# -----------------------------
 # Random Projection
-# -----------------------------
+
 def random_projection_matrix(d: int, r: int, seed: int) -> np.ndarray:
     rng = np.random.default_rng(seed)
     R = rng.standard_normal((d, r)) / math.sqrt(r)
@@ -51,9 +44,8 @@ def rp_quality_check(X: np.ndarray, Y: np.ndarray, samples: int = 200) -> float:
     rel_err = np.mean(np.abs(y_norm2 - x_norm2) / (x_norm2 + 1e-12))
     return float(rel_err)
 
-# -----------------------------
 # Count-Sketch
-# -----------------------------
+
 class CountSketch:
     def __init__(self, t, w, seeds_h, seeds_s):
         self.t = t
@@ -106,9 +98,8 @@ def cs_quality_check(cs: CountSketch, true_sums: np.ndarray, k: int):
     rel_l2 = np.linalg.norm(ests - true_sums) / denom
     return float(overlap), float(rel_l2)
 
-# -----------------------------
 # HyperLogLog
-# -----------------------------
+
 class HyperLogLog:
     def __init__(self, p: int):
         self.p = p
@@ -157,9 +148,8 @@ def vector_signature(x: np.ndarray, k: int = 3) -> bytes:
     payload = ",".join(f"{int(i)}:{int(s)}" for i, s in zip(idx, signs))
     return payload.encode()
 
-# -----------------------------
 # Data generation
-# -----------------------------
+
 def make_data(n: int, d: int, seed: int = 0) -> np.ndarray:
     rng = np.random.default_rng(seed)
     X = rng.standard_normal((n, d))
@@ -167,9 +157,8 @@ def make_data(n: int, d: int, seed: int = 0) -> np.ndarray:
     X[:, heavy_cols] += rng.normal(0, 3.0, size=(n, 8))
     return X
 
-# -----------------------------
 # Benchmark
-# -----------------------------
+
 def benchmark_all():
     X = make_data(n, d, seed=SEED)
     results = []
