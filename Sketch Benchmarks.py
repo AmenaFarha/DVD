@@ -13,8 +13,8 @@ r = 128           # projection dimension for RP
 cs_t = 4          # Count-Sketch rows
 cs_w = 4096       # Count-Sketch columns per row
 cs_topk = 10      # recover top-k coordinates
-hll_p = 14        # HLL precision -> m=2^p registers (~16K)
-sig_top = 3       # signature uses top-3 abs indices + signs for HLL
+hll_p = 14        # HLL precision
+sig_top = 3       # signature 
 
 def hash_to_int(x: bytes, seed: int = 0) -> int:
     h = hashlib.blake2b(x, digest_size=8, person=str(seed).encode())
